@@ -12,7 +12,7 @@ int main () {
     for (int i = 0; i < N; i++) {
         multiplicacao *= arrayNums[i];
     }
-    cout << "\n\nO Resultado final = " << multiplicacao;
+    cout << "O Resultado final = " << multiplicacao;
 
     return 0;
 }

@@ -1,5 +1,4 @@
 #include <iostream>
-#include <stdio.h>
 
 //Desenvolva o algoritmo de um programa que faz a leitura de dez números inteiros e apresenta como resultado a soma dos quadrados dos dez valores lidos.
 

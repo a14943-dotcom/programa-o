@@ -10,20 +10,20 @@ using namespace std;
 
 int main () {
 
-    char algoritmo[21];
+    int n = 21;
+    int soma = 0;
+    char algoritmo[n];
 
 
     cout << "Preciso que me digas quantos numeros queres somar (Max. 20 numeros). ";
-    cin >> algoritmo[21];
-    cout << algoritmo[21];
+    cin >> algoritmo[n];
 
-    /*for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         cout << "Numero "<< i + 1 << ": ";
         cin >> algoritmo[n];
-        soma = soma + algoritmo[n] * algoritmo[n];
+        soma = algoritmo[n] + algoritmo[n];
+        cout << "Resultado: " << soma;
     }
-    cout << "Resultado: " << soma;*/
-
     return 0;
 }
 
