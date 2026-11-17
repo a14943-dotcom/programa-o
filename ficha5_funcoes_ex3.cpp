@@ -11,7 +11,7 @@ float divide2Num(int n1 = 7, int n2 = 2){
 
 int main () {
 
-    divide2Num(float);
+    divide2Num();
 
     return 0;
 }

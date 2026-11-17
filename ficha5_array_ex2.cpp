@@ -22,8 +22,9 @@ int main () {
         cout << "Numero "<< i + 1 << ": ";
         cin >> algoritmo[n];
         soma = algoritmo[n] + algoritmo[n];
-        cout << "Resultado: " << soma;
     }
+     cout << "Resultado: " << soma;
+
     return 0;
 }
 

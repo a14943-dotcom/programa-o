@@ -17,9 +17,9 @@ string pedeNome() {
 
 int main () {
 
-    /*string nome =*/ pedeNome();
+    string nome = pedeNome();
 
-    cout << "O seu nome e: " << pedeNome();
+    cout << "O seu nome e: " << nome;
 
     return 0;
 }
